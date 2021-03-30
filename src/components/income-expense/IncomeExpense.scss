@@ -1,0 +1,17 @@
+.income-expense {
+  margin-top: 30px;
+  padding: 15px 30px;
+  border: 0;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+
+  .total-summary {
+    text-transform: uppercase;
+  }
+
+  .divider {
+    font-size: 350%;
+    -webkit-text-stroke: 3.5px #fff;
+    color: #cfcfcf;
+    margin-top: -10px;
+  }
+}

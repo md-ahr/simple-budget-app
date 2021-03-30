@@ -1,0 +1,21 @@
+.add-transaction {
+  margin-top: 30px;
+
+  form {
+    margin-top: 20px;
+
+    .form-control {
+      height: 50px;
+      padding-left: 20px;
+    }
+
+    .btn-submit {
+      background-color: #029e6a;
+      color: #ffffff;
+      margin-top: 10px;
+      padding: 14px 70px;
+      text-transform: uppercase;
+      font-weight: bold;
+    }
+  }
+}

@@ -1,0 +1,43 @@
+.transaction-list {
+  margin-top: 30px;
+
+  .card {
+    margin-top: 20px;
+    padding: 12px 15px;
+    border: 0;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.15);
+
+    &:hover {
+      .btn-delete {
+        display: block;
+      }
+    }
+
+    &.plus {
+      border-right: 3px solid #029e6a;
+
+      &:hover {
+        border-bottom: 1px solid #029e6a;
+      }
+    }
+
+    &.minus {
+      border-right: 3px solid #dc3545;
+
+      &:hover {
+        border-bottom: 1px solid #dc3545;
+      }
+    }
+
+    .btn-delete {
+      outline: none;
+      box-shadow: none;
+      display: none;
+      transition: all 0.7s ease;
+
+      .trash {
+        vertical-align: text-top;
+      }
+    }
+  }
+}
